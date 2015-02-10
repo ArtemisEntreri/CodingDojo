@@ -1,0 +1,116 @@
+.nav_bar {
+	width: 100%;
+	height: 50px;
+	border-radius: 5px;
+	margin-left: 500px;
+}
+.nav_bar ul {
+	margin-top: 0px;
+	padding-top: 5px;
+	background-color: #f1f1f1;
+	width: 450px;
+	border-radius: 5px;
+	display: inline-block;
+	border: 1px solid silver;
+	vertical-align: top;
+}
+.nav_bar ul li {
+	display: inline-block;
+	color: grey;
+	text-decoration: none;
+	list-style: none;
+}
+.nav_bar a {
+	text-decoration: none;
+	color: grey;
+}
+#login {
+	width: 70px;
+	height: 25px;
+	background-color: #007BA7;
+	border-radius: 5px;
+	display: inline-block;
+	text-align: center;
+	padding-top: 5px;
+	color: white;
+	margin-left: 20px;
+}
+header img {
+	margin-left: 5px;
+	display: inline-block;
+}
+header h1 {
+	display: inline-block;
+	color: grey;
+}
+header h2 {
+	background-color: #007BA7;
+	width: 100%;
+	height: 40px;
+	color: white;
+	padding: 10px 0px 0px 5px;
+	margin: auto;
+}
+#side_bar {
+	width: 240px;
+	margin-left: 5px;
+}
+#side_bar h3 {
+	color: #007BA7;
+}
+#side_bar .red {
+	color: #EC5800;
+}
+#side_bar h6 a {
+	color: #007BA7;
+	text-decoration: none;
+}
+#demo_button {
+	height: 25px;
+	width: 100%;
+	background-color: #007BA7;
+	text-align: center;
+	border-radius: 5px;
+	margin-bottom: 5px;
+	padding-top: 5px;
+	color: white;
+}
+#trial_button {
+	height: 25px;
+	width: 100%;
+	background-color: #EC5800;
+	text-align: center;
+	border-radius: 5px;
+	padding-top: 5px;
+	color: white;
+}
+#side_bar .credit_card {
+	text-align: center;
+
+}
+#line {
+	width: 100%;
+	border: 1px solid grey;
+}
+#left_content_ad {
+	height: 241px;
+	width: 198px;
+	background-image: url("left_content_ad.png");
+}
+#left_content_ad h5 {
+	color: #007BA7;
+	padding: 10px;
+}
+#left_content_ad h6 {
+	color: grey;
+	padding: 10px;
+}
+#get_graded_button {
+	width: 150px;
+	height: 20px;
+	background-color: blue;
+	color: white;
+	text-align: center;
+	margin: auto;
+	border-radius: 5px;
+}
