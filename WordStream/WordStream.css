@@ -1,30 +1,35 @@
-.nav_bar {
-	width: 100%;
-	height: 50px;
-	border-radius: 5px;
-	margin-left: 500px;
+#wrapper {
+	width: 980px;
+	margin: 0px auto;
 }
-.nav_bar ul {
+header ul {
+	border: 1px solid red;
+	background-color: #f1f1f1;
+	border-radius: 5px;
+	height: 50px;
+	
+	margin-left: 390px;
 	margin-top: 0px;
 	padding-top: 5px;
-	background-color: #f1f1f1;
-	width: 450px;
 	border-radius: 5px;
+	!border: 1px solid silver;
+
 	display: inline-block;
-	border: 1px solid silver;
 	vertical-align: top;
+	width: 450px;
 }
-.nav_bar ul li {
+header ul li {
 	display: inline-block;
 	color: grey;
 	text-decoration: none;
 	list-style: none;
 }
-.nav_bar a {
+header ul li a {
 	text-decoration: none;
 	color: grey;
 }
-#login {
+header #login {
+	border: 1px solid red;
 	width: 70px;
 	height: 25px;
 	background-color: #007BA7;
@@ -36,11 +41,15 @@
 	margin-left: 20px;
 }
 header img {
+	margin-top: 3px;
 	margin-left: 5px;
+	margin-right: 15px;
 	display: inline-block;
+	vertical-align: top;
 }
 header h1 {
 	display: inline-block;
+	vertical-align: top;
 	color: grey;
 }
 header h2 {
@@ -49,7 +58,8 @@ header h2 {
 	height: 40px;
 	color: white;
 	padding: 10px 0px 0px 5px;
-	margin: auto;
+	display: inline-block;
+	vertical-align: top;
 }
 #side_bar {
 	width: 240px;
@@ -84,8 +94,9 @@ header h2 {
 	padding-top: 5px;
 	color: white;
 }
-#side_bar .credit_card {
+#side_bar #credit_card {
 	text-align: center;
+	border: 1px solid #000;
 
 }
 #line {
